@@ -340,3 +340,8 @@ uniresolver:
       testIdentifiers:
         - did:iden3:polygon:amoy:xC8VZLUUfo5p9DWUawReh7QSstmYN6zR7qsQhQCsw
     
+        - did:algo:426165491c77a6c95eeed8d0420b38b0afbe9057c4f33147eb90fafd32aaad22-591154170
+    - pattern: "^(did:ndid:.+)$"
+      url: http://driver-did-ndid:9099/
+      testIdentifiers:
+        - did:ndid:ca47982b-a2ce-41fd-a248-c4dbf4a5bf9c
