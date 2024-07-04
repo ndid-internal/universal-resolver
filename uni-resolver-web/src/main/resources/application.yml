@@ -344,4 +344,4 @@ uniresolver:
     - pattern: "^(did:ndid:.+)$"
       url: http://driver-did-ndid:9099/
       testIdentifiers:
-        - did:ndid:ca47982b-a2ce-41fd-a248-c4dbf4a5bf9c
+        - did:ndid:e21806a6-2342-4683-a36e-06d927dfa3c4

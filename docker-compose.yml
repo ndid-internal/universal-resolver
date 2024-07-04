@@ -9,7 +9,7 @@ services:
     networks:
       - ndidplatform-vc
     ports:
-      - "8080:8080"
+      - '9000:8080'
   #   environment:
   #     # Override default driver URLs if they are set in .env variables, otherwise
   #     # don't define the variables and let uni-resolver-web container use its default
