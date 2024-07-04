@@ -3,6 +3,12 @@ version: '3.6'
 services:
   uni-resolver-web:
     image: ndidth/uni-resolver-web:dev
+    pull_policy: missing
+    build:
+      platforms:
+        - linux/amd64
+      context: ./
+      dockerfile: uni-resolver-web/docker/Dockerfile
     ports:
       - '9000:8080'
   #   environment:
