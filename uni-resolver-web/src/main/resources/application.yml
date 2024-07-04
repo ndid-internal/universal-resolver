@@ -342,6 +342,6 @@ uniresolver:
     
         - did:algo:426165491c77a6c95eeed8d0420b38b0afbe9057c4f33147eb90fafd32aaad22-591154170
     - pattern: "^(did:ndid:.+)$"
-      url: http://driver-did-ndid:9099/
+      url: http://ndid-did-resolver:9099/
       testIdentifiers:
         - did:ndid:e21806a6-2342-4683-a36e-06d927dfa3c4
